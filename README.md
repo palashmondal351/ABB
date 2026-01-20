@@ -18,15 +18,6 @@ Local LLM answer generation with strict grounding
 
 Source-cited, auditable responses
 
-Project Structure
-.
-├── data/                   # Input PDFs (Apple & Tesla 10-Ks)
-├── data_processing.py      # PDF parsing and chunk preparation
-├── indexing.py             # FAISS index build/load/retrieve
-├── qa_engine.py            # Prompting and LLM answer generation
-├── main.py                 # End-to-end pipeline execution
-├── requirements.txt        # Python dependencies
-└── README.md
 
 System Architecture
 
